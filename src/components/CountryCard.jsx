@@ -18,7 +18,7 @@ function CountryCard({flag, name}){
 
         }>
            
-            <img src={flag} alt={flag.name} style={{
+            <img src={flag} alt={`Flag of ${name}`} style={{
                 
                     maxWidth:"120px", 
                     height:"120px", 
